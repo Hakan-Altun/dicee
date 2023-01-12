@@ -1,0 +1,58 @@
+#body{
+    background-color: #EB6440;
+}
+.title{
+    font-family: 'Moon Dance';
+    text-align: center;
+    font-weight: bold;
+    font-size: 6rem;
+    margin: 100px auto 50px;
+    color: #D6E4E5;
+}
+.player{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    color: #D6E4E5;
+}
+.dice1{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+    width: 250px;
+    background-color: aqua;
+}
+.dice2{
+    position: absolute;
+    right:120px;
+    top: 100px;
+    width: 250px; 
+}
+#refresh{
+    position: absolute;
+    top:200px;
+    left:200px;
+    background-color:black;
+    color: #D6E4E5;
+}
+.player1score{
+    position: absolute;
+    top:320px;
+    left:230px;
+    font-size: 2rem;
+    color: #D6E4E5;
+}
+.player2score{
+    position: absolute;
+    top: 320px;
+    right: 230px;
+    font-size: 2rem;
+    color: #D6E4E5;
+}
+.visibility{
+    visibility: hidden;
+}
+h2{
+    text-align: center;
+    color: #D6E4E5;
+}
